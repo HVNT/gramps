@@ -120,6 +120,10 @@ textarea {
     color: #141c26;
 }
 
+.light-text {
+    color: #E4EAF1;
+}
+
 h1.dark-text {
     font-size: 76px;
     letter-spacing: -1px;
@@ -139,6 +143,30 @@ h3.dark-text {
 }
 
 h4.dark-text {
+    font-size: 34px;
+    letter-spacing: -1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1.light-text {
+    font-size: 76px;
+    letter-spacing: -1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2.light-text {
+    font-size: 60px;
+    letter-spacing: -1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3.light-text {
+    font-size: 46px;
+    letter-spacing: -1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4.light-text {
     font-size: 34px;
     letter-spacing: -1px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -226,12 +254,20 @@ h4.dark-text {
     margin-left:25px;
 }
 
+.mlxx {
+    margin-left: 100px;
+}
+
 .mlv {
     margin-left:50px;
 }
 
 .mtx {
     margin-top:10px;
+}
+
+.mtv {
+    margin-top:50px;
 }
 
 .mtvx {
@@ -244,6 +280,10 @@ h4.dark-text {
 
 .mbvx {
     margin-bottom:25px;
+}
+
+.mbx {
+    margin-bottom: 10px;
 }
 
 
@@ -470,6 +510,15 @@ h4.dark-text {
     list-style-type: none;
 }
 
+/* ==========================================================================
+   Nav styles.
+
+   ========================================================================== */
+
+.mh-nav {
+    opacity: 0.85;
+}
+
 
 /* ==========================================================================
    Showcase styles.
@@ -492,6 +541,12 @@ h4.dark-text {
     width: auto;
 }
 
+.PTSD-small {
+    padding-right: 50px;
+    border-right: 1px solid #555;
+
+}
+
 
 /* ==========================================================================
    Hook styles.
@@ -499,7 +554,7 @@ h4.dark-text {
    ========================================================================== */
 
 .mh-hook {
-    background: WHITE;
+    background: #333;
 }
 
 /* ==========================================================================
@@ -518,6 +573,11 @@ h4.dark-text {
 
 .facts {
     padding-right:0px;
+}
+
+.btn-checkout {
+    background: #333;
+    border-color: #26acb0;
 }
 
 /* ==========================================================================
