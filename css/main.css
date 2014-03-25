@@ -254,6 +254,10 @@ h4.light-text {
     margin-left:25px;
 }
 
+.mlxv {
+    margin-left:75px;
+}
+
 .mlxx {
     margin-left: 100px;
 }
@@ -299,9 +303,12 @@ h4.light-text {
     padding-top:100px;
 }
 .plx {
-    padding-left:10px;
-}
+     padding-left:10px;
+ }
 
+.plv {
+    padding-left:50px;
+}
 .plxx {
     padding-left:100px;
 }
@@ -596,4 +603,24 @@ h4.light-text {
     display:inline-block;
     color: #999;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ==========================================================================
+   Checkout styles.
+
+   ========================================================================== */
+
+.checkout {
+    min-height: 500px;
+}
+
+.checkout-container {
+    min-height:450px;
+    border-left: 1px solid #ddd;
+}
+
+.checkout-total {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 25px;
 }
