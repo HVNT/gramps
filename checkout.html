@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mental Disorders - Get help from an seasoned expert.</title>
+    <title>Surviving PTSD checkout</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,65 +25,92 @@
 <body>
 
 <!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
 <![endif]-->
 <div class="container mtxx">
 
     <div class="row">
-        <a class="mlxx" href="/gramps_v1"><img src="img/doctor-logoV3_small.png"/></a>
+        <div class="col-md-1" style="padding-top:30px;">
+            <a href="/"><img src="img/doctor-logoV3_small.png"/></a>
+        </div>
+        <div class="col-md-11">
+            <div class="dark-text text-center bft1">
+                checkout <span class="glyphicon glyphicon-shopping-cart plx"></span>
+            </div>
+        </div>
     </div>
 
     <div class="row checkout mtv">
 
-        <div class="col-md-offset-2 col-md-4 mtxx">
-
+        <div class="col-md-offset-2 col-sm-10 col-md-4 mtv">
             <img src="img/PTSD_final.6.2small.jpg"/>
-
         </div>
 
-        <div class="col-md-4 checkout-container">
-
-            <div class="bft4 mtv plv">
-                checkout
-                <span class="glyphicon glyphicon-shopping-cart pull-right"></span>
+        <div class="col-md-4 col-sm-10 checkout-container">
+            <div class="row mtv">
+                <div class="col-md-12">
+                    <div class="plv bft5">
+                        Checkout now and start reading&nbsp; Dr. Wagemaker's eye-opening research on PTSD.
+                    </div>
+                </div>
             </div>
-            <div  class="row mtv">
-                <div class="col-md-8 mtx">
-                    <div class="bft5 mlxv text-right">Book cost: </div>
-                    <div class="bft5 mlxv mtvx text-right">Shipping cost: </div>
+
+            <div class="row mtv">
+                <div class="col-md-8">
+                    <div class="bft5 plv">Book cost:</div>
                 </div>
                 <div class="col-md-3 col-md-offset-1">
-                    <div class="well well-sm plx"><b>$X.XX</b></div>
-                    <div class="well well-sm plx"><b>$0.00</b></div>
+                    <div class="well well-sm plx"><b>$12.95</b></div>
                 </div>
                 <br/>
 
             </div>
             <div class="row">
-                <div class="checkout-total">
-                    <div class="col-md-8 mtx">
-                        <div class="bft5 mlxv text-right">Total: </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-1">
-                        <div class="well well-sm plx"><b>$X.XX</b></div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="checkout-paypal pull-right mtvx">
-                    <div class="bft6 mlv">
-                        <b>Click below to checkout now using <span class="highlight-green">PayPal</span></b>
-                    </div>
-
+                <div class="col-md-12 ptx">
+                    <button id="stripe-checkout" type="button" class="btn btn-success btn-checkout pull-right">
+                        Pay with card
+                    </button>
+                    <!--<form action="" method="POST" class="pull-right">-->
+                        <!--<script-->
+                                <!--src="https://checkout.stripe.com/checkout.js" class="stripe-button"-->
+                                <!--data-key="pk_live_rTnL1j9Q69tEOQ5hsiGGqtq6"-->
+                                <!--data-amount="1295"-->
+                                <!--data-name="Surviving PTSD"-->
+                                <!--data-description="A dive into what's really going on."-->
+                                <!--data-image="img/doctor-logoV3_small.png">-->
+                        <!--</script>-->
+                    <!--</form>-->
                 </div>
             </div>
-
         </div>
     </div>
 
-</div>
+    <!--scripts-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/checkout.js"></script>
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-61268219-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!--stripe-->
+    <script src="https://checkout.stripe.com/checkout.js"></script>
 </body>
 </html>
